@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5178ABF21DA6BBC000C2CD2A"
-               BuildableName = "Architecture-Patterns-MVP.app"
-               BlueprintName = "Architecture-Patterns-MVP"
-               ReferencedContainer = "container:Architecture-Patterns-MVP.xcodeproj">
+               BlueprintIdentifier = "51FBFC2A1DAC09B800ABB5D1"
+               BuildableName = "Architecture-Patterns-MVVM.app"
+               BlueprintName = "Architecture-Patterns-MVVM"
+               ReferencedContainer = "container:Architecture-Patterns-MVVM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5178ABF21DA6BBC000C2CD2A"
-            BuildableName = "Architecture-Patterns-MVP.app"
-            BlueprintName = "Architecture-Patterns-MVP"
-            ReferencedContainer = "container:Architecture-Patterns-MVP.xcodeproj">
+            BlueprintIdentifier = "51FBFC2A1DAC09B800ABB5D1"
+            BuildableName = "Architecture-Patterns-MVVM.app"
+            BlueprintName = "Architecture-Patterns-MVVM"
+            ReferencedContainer = "container:Architecture-Patterns-MVVM.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5178ABF21DA6BBC000C2CD2A"
-            BuildableName = "Architecture-Patterns-MVP.app"
-            BlueprintName = "Architecture-Patterns-MVP"
-            ReferencedContainer = "container:Architecture-Patterns-MVP.xcodeproj">
+            BlueprintIdentifier = "51FBFC2A1DAC09B800ABB5D1"
+            BuildableName = "Architecture-Patterns-MVVM.app"
+            BlueprintName = "Architecture-Patterns-MVVM"
+            ReferencedContainer = "container:Architecture-Patterns-MVVM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5178ABF21DA6BBC000C2CD2A"
-            BuildableName = "Architecture-Patterns-MVP.app"
-            BlueprintName = "Architecture-Patterns-MVP"
-            ReferencedContainer = "container:Architecture-Patterns-MVP.xcodeproj">
+            BlueprintIdentifier = "51FBFC2A1DAC09B800ABB5D1"
+            BuildableName = "Architecture-Patterns-MVVM.app"
+            BlueprintName = "Architecture-Patterns-MVVM"
+            ReferencedContainer = "container:Architecture-Patterns-MVVM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
