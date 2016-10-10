@@ -12,6 +12,9 @@
 		51FBFC341DAC09B800ABB5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FBFC321DAC09B800ABB5D1 /* Main.storyboard */; };
 		51FBFC361DAC09B800ABB5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FBFC351DAC09B800ABB5D1 /* Assets.xcassets */; };
 		51FBFC391DAC09B800ABB5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FBFC371DAC09B800ABB5D1 /* LaunchScreen.storyboard */; };
+		51FBFC411DAC1A4F00ABB5D1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FBFC401DAC1A4E00ABB5D1 /* Person.swift */; };
+		51FBFC431DAC1AB300ABB5D1 /* GreetingViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FBFC421DAC1AB300ABB5D1 /* GreetingViewModelProtocol.swift */; };
+		51FBFC451DAC21C500ABB5D1 /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FBFC441DAC21C500ABB5D1 /* GreetingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		51FBFC351DAC09B800ABB5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51FBFC381DAC09B800ABB5D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51FBFC3A1DAC09B800ABB5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51FBFC401DAC1A4E00ABB5D1 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		51FBFC421DAC1AB300ABB5D1 /* GreetingViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingViewModelProtocol.swift; sourceTree = "<group>"; };
+		51FBFC441DAC21C500ABB5D1 /* GreetingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				51FBFC2E1DAC09B800ABB5D1 /* AppDelegate.swift */,
 				51FBFC301DAC09B800ABB5D1 /* ViewController.swift */,
+				51FBFC401DAC1A4E00ABB5D1 /* Person.swift */,
+				51FBFC421DAC1AB300ABB5D1 /* GreetingViewModelProtocol.swift */,
+				51FBFC441DAC21C500ABB5D1 /* GreetingViewModel.swift */,
 				51FBFC321DAC09B800ABB5D1 /* Main.storyboard */,
 				51FBFC351DAC09B800ABB5D1 /* Assets.xcassets */,
 				51FBFC371DAC09B800ABB5D1 /* LaunchScreen.storyboard */,
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FBFC411DAC1A4F00ABB5D1 /* Person.swift in Sources */,
+				51FBFC431DAC1AB300ABB5D1 /* GreetingViewModelProtocol.swift in Sources */,
+				51FBFC451DAC21C500ABB5D1 /* GreetingViewModel.swift in Sources */,
 				51FBFC311DAC09B800ABB5D1 /* ViewController.swift in Sources */,
 				51FBFC2F1DAC09B800ABB5D1 /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +312,7 @@
 				51FBFC3F1DAC09B800ABB5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

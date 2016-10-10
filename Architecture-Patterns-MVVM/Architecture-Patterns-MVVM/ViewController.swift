@@ -9,10 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var greetingLabel: UILabel!
+    
+    var viewModel: GreetingViewModelProtocol! {
+        didSet {
+            self.viewModel.greetingDidChange = { [unowned self] viewModel in
+                self.greetingLabel.text = viewModel.greeting
+            }
+        }
+    }
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let model = Person(firstName: "David", lastName: "Blaine")
+        let viewModel = GreetingViewModel(person: model)
+        self.viewModel = viewModel
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +32,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showGreeting(_ sender: UIButton) {
+        viewModel.showGreeting()
+    }
 
 }
 
