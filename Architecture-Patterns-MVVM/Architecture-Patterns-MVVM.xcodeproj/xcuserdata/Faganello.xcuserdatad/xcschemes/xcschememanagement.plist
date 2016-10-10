@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Architecture-Patterns-MVP.xcscheme</key>
+		<key>Architecture-Patterns-MVVM.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5178ABF21DA6BBC000C2CD2A</key>
+		<key>51FBFC2A1DAC09B800ABB5D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
