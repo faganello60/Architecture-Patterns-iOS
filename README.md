@@ -1,5 +1,5 @@
 # Architecture Patterns iOS
-> A small provided architectures for iOS.
+> Some existing architectures for iOS.
 
 ## Developed Architecture Patterns:
 - [x] MVP
