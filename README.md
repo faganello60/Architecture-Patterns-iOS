@@ -3,7 +3,7 @@
 
 ## Developed Architecture Patterns:
 - [x] MVP
-- [x] MVVM(Your are here)
+- [x] MVVM (Your are here)
 
 ## Requirements:
 - Xcode 8.x
